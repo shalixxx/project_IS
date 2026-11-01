@@ -1,0 +1,9 @@
+app:
+  name: "Electronic Diary"
+  port: 8080
+database:
+  host: "localhost"
+  port: 5432
+  db_name: "college_diary"
+sync_1c_cron: "0 2 * * *"
+backup_enabled: true
